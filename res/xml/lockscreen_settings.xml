@@ -20,6 +20,11 @@
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
 
+        <PreferenceScreen
+            android:key="lockscreen_shortcuts"
+            android:title="@string/lockscreen_shortcuts_category"
+            android:fragment="com.aquarios.settings.fragments.ShortcutCategory" />
+
          <PreferenceScreen
             android:key="lockscreen_weather"
             android:title="@string/lock_screen_weather_settings_title"
@@ -62,13 +67,6 @@
             android:key="hide_lockscreen_alarm"
             android:title="@string/hide_lockscreen_alarm_title"
             android:defaultValue="true" />
-
-        <PreferenceScreen
-            android:title="@string/lockscreen_targets_message" >
-            <intent
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
-        </PreferenceScreen>
     </PreferenceCategory>
 
     <PreferenceCategory
