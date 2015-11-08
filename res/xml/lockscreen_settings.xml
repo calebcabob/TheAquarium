@@ -63,6 +63,12 @@
             android:title="@string/hide_lockscreen_alarm_title"
             android:defaultValue="true" />
 
+        <PreferenceScreen
+            android:title="@string/lockscreen_targets_message" >
+            <intent
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
+        </PreferenceScreen>
     </PreferenceCategory>
 
     <PreferenceCategory
