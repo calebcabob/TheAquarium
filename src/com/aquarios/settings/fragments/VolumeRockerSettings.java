@@ -127,6 +127,11 @@ public class VolumeRockerSettings extends ActionFragment implements
     }
 
     @Override
+    protected boolean usesExtendedActionsList() {
+        return true;
+    }
+
+    @Override
     protected int getMetricsCategory() {
         return MetricsEvent.AQUARIOS;
     }
