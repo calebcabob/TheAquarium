@@ -209,7 +209,7 @@
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
 
     <!-- Volume Rocker fragment -->
-    <string name="volumerocker_settings_title">Physical Keys</string>
+    <string name="volumerocker_settings_title">Volume Rocker</string>
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
     <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
