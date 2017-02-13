@@ -56,6 +56,11 @@
         android:title="@string/aquarios_system">
 
          <PreferenceScreen
+              android:id="@+id/dashboard_options"
+              android:fragment="com.aquarios.settings.fragments.DashboardOptions"
+              android:title="@string/dashboard_category" />
+
+         <PreferenceScreen
               android:fragment="com.aquarios.settings.fragments.DisplaySettings"
               android:key="aquarios_display_settings"
               android:title="@string/display_settings_title"/>
