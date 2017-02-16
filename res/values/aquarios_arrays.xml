@@ -348,5 +348,31 @@
     <string-array name="custom_header_provider_values" translatable="false">
         <item>@string/daylight_header_provider</item>
         <item>@string/static_header_provider</item>
-    </string-array>                   
+    </string-array>
+
+    <!-- LS Weather -->
+    <string-array name="weather_condition_icon_entries">
+        <item>@string/weather_condition_icon_monochrome_title</item>
+        <item>@string/weather_condition_icon_colored_title</item>
+        <item>@string/weather_condition_icon_vclouds_title</item>
+    </string-array>
+
+    <string-array name="weather_condition_icon_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="weather_hide_panel_entries">
+        <item>@string/weather_hide_panel_auto_title</item>
+        <item>@string/weather_hide_panel_custom_title</item>
+        <item>@string/weather_hide_panel_never_title</item>
+    </string-array>
+
+    <string-array name="weather_hide_panel_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
 </resources>
