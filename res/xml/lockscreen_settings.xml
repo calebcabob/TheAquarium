@@ -38,10 +38,20 @@
             android:summary="@string/keyguard_torch_summary"
             android:defaultValue="false" />
 
-         <com.aquarios.settings.preferences.SecureSettingSwitchPreference
+        <com.aquarios.settings.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_visualizer"
             android:title="@string/lockscreen_visualizer_title"
             android:defaultValue="true"/>
+
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_clock"
+            android:title="@string/hide_lockscreen_clock_title"
+            android:defaultValue="true" />
+
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_date"
+            android:title="@string/hide_lockscreen_date_title"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 

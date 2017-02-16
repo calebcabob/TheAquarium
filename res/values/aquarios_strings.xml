@@ -91,6 +91,10 @@
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock after reboot</string>
     <string name="fp_unlock_keystore_summary">Allow device to always be unlocked with fingerprint, even after reboot</string>
+    <!-- Hide Lockscreen clock & date -->
+    <string name="hide_lockscreen_items_title">Lockscreen items</string>
+    <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
+    <string name="hide_lockscreen_date_title">Show lockscreen date</string>
 
     <!-- Recent Apps fragment -->
     <string name="recent_settings_title">Recent apps</string>
