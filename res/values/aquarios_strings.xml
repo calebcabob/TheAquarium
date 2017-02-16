@@ -74,11 +74,6 @@
     <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="lockscreen_options_title">Lockscreen options</string>
     <string name="lockscreen_secure_options_title">Secure Lockscreen options</string>
-    <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
-    <string name="lockscreen_clock_title">Lockscreen clock</string>
-    <string name="lockscreen_date_title">Lockscreen date</string>
-    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
     <!-- Lockscreen Torch -->
     <string name="keyguard_torch_title">Lockscreen torch</string>
     <string name="keyguard_torch_summary">Longpress power button while screen is off to turn on flashlight</string>
@@ -90,27 +85,6 @@
     <string name="lockscreen_battery_info_summary">Display realtime charger current, voltage, and battery temperature on lockscreen while charging</string>
     <!-- lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Display music visualizer</string>
-    <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
-    <string name="lock_clock_font_normal">Roboto</string>
-    <string name="lock_clock_font_bold">Roboto Bold</string>
-    <string name="lock_clock_font_italic">Roboto Italic</string>
-    <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
-    <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
-    <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
-    <string name="lock_clock_font_thin_normal">Roboto Thin</string>
-    <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
-    <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
-    <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
-    <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
-    <string name="lock_clock_font_medium_normal">Roboto Medium</string>
-    <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
-    <string name="lock_clock_font_black_normal">Roboto Black</string>
-    <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
-    <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
-    <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>

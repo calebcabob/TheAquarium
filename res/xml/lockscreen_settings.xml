@@ -20,11 +20,6 @@
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
 
-        <PreferenceScreen
-            android:fragment="com.aquarios.settings.fragments.LockScreenItemsSettings"
-            android:key="lockscreen_items"
-            android:title="@string/lockscreen_items_settings_title" />
-
         <com.aquarios.settings.preferences.SystemSettingSwitchPreference
            android:key="double_tap_sleep_anywhere"
            android:title="@string/double_tap_sleep_anywhere_title"
