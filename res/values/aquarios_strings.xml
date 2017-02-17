@@ -114,6 +114,9 @@
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Fingerprint unlock after reboot</string>
+    <string name="fp_unlock_keystore_summary">Allow device to always be unlocked with fingerprint, even after reboot</string>
 
     <!-- Recent Apps fragment -->
     <string name="recent_settings_title">Recent apps</string>
@@ -253,6 +256,8 @@
     <string name="quick_pulldown_always">Always</string>
     <!-- Quicks settings columns -->
     <string name="qs_columns_title">Number of tiles in column</string>
+    <string name="qs_rows_portrait_title">Number of rows (portrait)</string>
+    <string name="qs_rows_landscape_title">Number of rows (landscape)</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Smart pulldown</string>
     <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
@@ -274,7 +279,10 @@
     <string name="daylight_header_provider_title">Dynamic</string>
     <string name="custom_header_provider_title">Header provider</string>
     <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>             
+    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+    <!-- QS easy toggles -->
+    <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
+    <string name="qs_easy_toggle_summary">one tap action to toggle bluetooth, data, or wifi</string>
 
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>

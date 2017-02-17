@@ -21,6 +21,12 @@
         android:title="@string/notification_panel_title">
      
         <com.aquarios.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_easy_toggle"
+            android:title="@string/qs_easy_toggle_title"
+            android:summary="@string/qs_easy_toggle_summary"
+            android:defaultValue="false" />
+
+        <com.aquarios.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
             android:title="@string/qs_brightness_slider_title"
             android:summary="@string/qs_brightness_slider_summary"
@@ -45,6 +51,22 @@
             android:title="@string/qs_columns_title"
             android:max="6"
             settings:min="3"
+            settings:units=""
+            android:persistent="false" />
+
+        <com.flash.settings.preferences.CustomSeekBarPreference
+            android:key="qs_rows_portrait"
+            android:title="@string/qs_rows_portrait_title"
+            android:max="5"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
+
+        <com.flash.settings.preferences.CustomSeekBarPreference
+            android:key="qs_rows_landscape"
+            android:title="@string/qs_rows_landscape_title"
+            android:max="3"
+            settings:min="1"
             settings:units=""
             android:persistent="false" />
 
