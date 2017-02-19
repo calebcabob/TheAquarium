@@ -20,10 +20,10 @@
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
 
-        <PreferenceScreen
-            android:fragment="com.aquarios.settings.fragments.LockScreenItemsSettings"
-            android:key="lockscreen_items"
-            android:title="@string/lockscreen_items_settings_title" />
+         <PreferenceScreen
+            android:key="lockscreen_weather"
+            android:title="@string/lock_screen_weather_settings_title"
+            android:fragment="com.aquarios.settings.fragments.LockScreenWeatherSettings" />
 
         <com.aquarios.settings.preferences.SystemSettingSwitchPreference
            android:key="double_tap_sleep_anywhere"
@@ -43,10 +43,25 @@
             android:summary="@string/keyguard_torch_summary"
             android:defaultValue="false" />
 
-         <com.aquarios.settings.preferences.SecureSettingSwitchPreference
+        <com.aquarios.settings.preferences.SecureSettingSwitchPreference
             android:key="lockscreen_visualizer"
             android:title="@string/lockscreen_visualizer_title"
             android:defaultValue="true"/>
+
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_clock"
+            android:title="@string/hide_lockscreen_clock_title"
+            android:defaultValue="true" />
+
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_date"
+            android:title="@string/hide_lockscreen_date_title"
+            android:defaultValue="true" />
+
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_alarm"
+            android:title="@string/hide_lockscreen_alarm_title"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 
@@ -60,7 +75,7 @@
             android:summary="@string/fprint_sucess_vib_summary"
             android:defaultValue="true" />
 
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.aquarios.settings.preferences.SystemSettingSwitchPreference
             android:key="fp_unlock_keystore"
             android:title="@string/fp_unlock_keystore_title"
             android:summary="@string/fp_unlock_keystore_summary"

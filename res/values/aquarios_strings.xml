@@ -74,11 +74,6 @@
     <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="lockscreen_options_title">Lockscreen options</string>
     <string name="lockscreen_secure_options_title">Secure Lockscreen options</string>
-    <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
-    <string name="lockscreen_clock_title">Lockscreen clock</string>
-    <string name="lockscreen_date_title">Lockscreen date</string>
-    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
     <!-- Lockscreen Torch -->
     <string name="keyguard_torch_title">Lockscreen torch</string>
     <string name="keyguard_torch_summary">Longpress power button while screen is off to turn on flashlight</string>
@@ -90,33 +85,56 @@
     <string name="lockscreen_battery_info_summary">Display realtime charger current, voltage, and battery temperature on lockscreen while charging</string>
     <!-- lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Display music visualizer</string>
-    <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
-    <string name="lock_clock_font_normal">Roboto</string>
-    <string name="lock_clock_font_bold">Roboto Bold</string>
-    <string name="lock_clock_font_italic">Roboto Italic</string>
-    <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
-    <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
-    <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
-    <string name="lock_clock_font_thin_normal">Roboto Thin</string>
-    <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
-    <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
-    <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
-    <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
-    <string name="lock_clock_font_medium_normal">Roboto Medium</string>
-    <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
-    <string name="lock_clock_font_black_normal">Roboto Black</string>
-    <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
-    <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
-    <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Fingerprint unlock after reboot</string>
     <string name="fp_unlock_keystore_summary">Allow device to always be unlocked with fingerprint, even after reboot</string>
+    <!-- Hide Lockscreen clock, date & alarm -->
+    <string name="hide_lockscreen_items_title">Lockscreen items</string>
+    <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
+    <string name="hide_lockscreen_date_title">Show lockscreen date</string>
+    <string name="hide_lockscreen_alarm_title">Show lockscreen alarm</string>
+    <!-- Lockscreen Weather -->
+    <string name="weather">Weather options</string>
+    <string name="display_category_weather_title">Lockscreen weather options</string>
+    <string name="lock_screen_weather_settings_title">Weather</string>
+    <string name="weather_cat_notifications_title">Notifications</string>
+    <string name="weather_show_weather_title">Show weather</string>
+    <string name="weather_show_weather_summary">Enable to show weather information</string>
+    <string name="weather_show_location_title">Show location</string>
+    <string name="weather_show_location_summary">Enable to show the location</string>
+    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
+    <string name="weather_condition_icon_title">Condition icon</string>
+    <string name="weather_condition_icon_dlg_title">Choose an icon for displaying the weather condition</string>
+    <string name="weather_condition_icon_monochrome_title">Monochrome</string>
+    <string name="weather_condition_icon_colored_title">Colored</string>
+    <string name="weather_condition_icon_vclouds_title">VClouds</string>
+    <string name="icons_title">Icons</string>
+    <string name="position_right_title">Right</string>
+    <string name="position_centered_title">Centered</string>
+    <string name="hidden_title">Hidden</string>
+    <string name="weather_hide_panel_title">Hide weather panel</string>
+    <string name="weather_hide_panel_dlg_title">Choose when the weather panel should be hidden</string>
+    <string name="weather_hide_panel_auto_title">Auto</string>
+    <string name="weather_hide_panel_custom_title">Custom</string>
+    <string name="weather_hide_panel_never_title">Never</string>
+    <string name="weather_hide_panel_auto_summary">The weather panel will be hidden when the visible notifications will reach the maximum allowed notifications on the lock screen</string>
+    <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
+    <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
+    <string name="weather_number_of_notifications_title">Number of notifications</string>
+    <string name="weather_settings_options_title">Location settings</string>
+    <string name="weather_settings_summary">Choose location and other settings</string>
+    <string name="weather_show_location_summary">Display weather location</string>
+    <!-- Lock clock -->
+    <string name="lock_clock_title">Clock widget</string>
+    <string name="lock_clock_summary">View or change how the \'cLock\' Home  widget will display</string>
+    <string name="lock_clock_clock_section_title">Clock and alarm</string>
+    <string name="lock_clock_clock_section_summary">View or change how the clock of the \'cLock\' Home  widget will display</string>
+    <string name="lock_clock_weather_section_title">Weather panel</string>
+    <string name="lock_clock_weather_section_summary">View or change how the weather of the \'cLock\' Home  widget will display</string>
 
     <!-- Recent Apps fragment -->
     <string name="recent_settings_title">Recent apps</string>
@@ -283,6 +301,19 @@
     <!-- QS easy toggles -->
     <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
     <string name="qs_easy_toggle_summary">one tap action to toggle bluetooth, data, or wifi</string>
+    <!-- Status bar temperature -->
+    <string name="statusbar_weather_settings_summary">Show temperature of current weather in status bar</string>
+    <string name="weather_category">Weather</string>
+    <string name="status_bar_temperature_title">Statusbar weather temperature</string>
+    <string name="status_bar_temperature_hidden">Hidden</string>
+    <string name="status_bar_temperature_show_scale">Shown with scale</string>
+    <string name="status_bar_temperature_hide_scale">Shown without scale</string>
+    <string name="status_bar_temperature_location_title">Placement</string>
+    <string name="status_bar_temperature_location_summary">Select where the weather temperature is shown on the statusbar</string>
+    <string name="status_bar_temperature_location_right">Show on right</string>
+    <string name="status_bar_temperature_location_left">Show on left</string>
+    <string name="status_bar_weather_color_title">Temperature color</string>
+    <string name="status_bar_weather_size_title">Font size</string>
 
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>

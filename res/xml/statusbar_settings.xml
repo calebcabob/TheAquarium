@@ -22,11 +22,18 @@
         android:summary="@string/clock_settings_summary" />
         
     <PreferenceScreen
+        android:key="status_bar_temperature"
+        android:title="@string/status_bar_temperature_title"
+        android:fragment="com.aquarios.settings.fragments.StatusBarWeather"
+        android:summary="@string/statusbar_weather_settings_summary" />
+        
+    <PreferenceScreen
             android:title="@string/status_bar_icon_blacklist_title"
             android:summary="@string/status_bar_icon_blacklist_summary" >
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
+
     </PreferenceScreen>
 
     <com.aquarios.settings.preferences.SystemSettingSwitchPreference
