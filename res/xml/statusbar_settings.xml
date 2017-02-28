@@ -4,6 +4,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     
     <PreferenceScreen
+        android:key="status_bar_battery_style"
+        android:title="@string/status_bar_battery_style_category"
+        android:summary="@string/status_bar_battery_style_summary"
+        android:fragment="com.aquarios.settings.fragments.StatusbarBatteryStyle" />
+
+    <PreferenceScreen
         android:key="batterybar"
         android:fragment="com.aquarios.settings.fragments.BatteryBar"
         android:title="@string/battery_bar_title"
@@ -29,12 +35,12 @@
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
 
     </PreferenceScreen>
-
+<!-- WE DON'T NEED THIS SHIT
     <com.aquarios.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_show_battery_percent"
         android:title="@string/show_battery_percentage"
         android:summary="@string/show_battery_percentage_summary"
-        android:defaultValue="false" />            
+        android:defaultValue="false" /> -->        
     
     <com.aquarios.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
