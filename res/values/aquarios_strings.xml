@@ -309,6 +309,7 @@
     <string name="smart_pulldown_ongoing">no ongoing</string>
     <!-- QS headers -->
     <string name="qs_header_category">Quick settings header</string>
+    <string name="qs_header_title">Quick settings header</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
     <string name="daylight_header_pack_title">Header image pack</string>
@@ -324,6 +325,22 @@
     <!-- QS easy toggles -->
     <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
     <string name="qs_easy_toggle_summary">one tap action to toggle bluetooth, data, or wifi</string>
+    <!-- Quicks settings vibrate -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+    <!-- qs titles -->
+    <string name="qs_tile_title_visibility_title">QS tile titles</string>
+    <string name="qs_tile_title_visibility_summary_on">QS tile titles are on</string>
+    <string name="qs_tile_title_visibility_summary_off">QS tile titles are off</string>
+    <!-- QS Header Icons -->
+    <string name="qs_settings_icon_title">Hide settings shortcut</string>
+    <string name="qs_settings_icon_summary">Remove the settings shortcut in the header</string>
+    <string name="qs_edit_title">Hide edit icon</string>
+    <string name="qs_edit_summary">Remove the tile edit icon in the header</string>
+    <string name="qs_multiuser_switch_title">Hide multi-user switch</string>
+    <string name="qs_multiuser_switch_summary">Remove the multi-user switch in the header</string>
+    <string name="qs_expand_indicator_title">Hide expand indicator</string>
+    <string name="qs_expand_indicator_summary">Remove the expand indicator in the header</string>
     <!-- Status bar temperature -->
     <string name="statusbar_weather_settings_summary">Show temperature of current weather in status bar</string>
     <string name="weather_category">Weather</string>
