@@ -311,7 +311,7 @@
     <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
     <!-- QS easy toggles -->
     <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
-    <string name="qs_easy_toggle_summary">one tap action to toggle bluetooth, data, or wifi</string>
+    <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable mobile data, Wi-Fi, location, and Bluetooth</string>
     <!-- Status bar temperature -->
     <string name="statusbar_weather_settings_summary">Show temperature of current weather in status bar</string>
     <string name="weather_category">Weather</string>
