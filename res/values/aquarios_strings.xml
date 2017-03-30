@@ -287,6 +287,8 @@
     <string name="qs_columns_title">Number of tiles in column</string>
     <string name="qs_rows_portrait_title">Number of rows (portrait)</string>
     <string name="qs_rows_landscape_title">Number of rows (landscape)</string>
+    <string name="qqs_scroll_title">Scroll small QS tiles</string>
+    <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Smart pulldown</string>
     <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
@@ -341,6 +343,15 @@
     <string name="header_weather_title">Header view weather</string>
     <string name="header_weather_summary">Enable notification panel header weather display</string>
     <string name="weather_icon_pack_title">Condition icon pack</string>
+    <!-- QS Header Icons -->
+    <string name="qs_settings_icon_title">Hide settings shortcut</string>
+    <string name="qs_settings_icon_summary">Remove the settings shortcut in the header</string>
+    <string name="qs_edit_title">Hide edit icon</string>
+    <string name="qs_edit_summary">Remove the tile edit icon in the header</string>
+    <string name="qs_multiuser_switch_title">Hide multi-user switch</string>
+    <string name="qs_multiuser_switch_summary">Remove the multi-user switch in the header</string>
+    <string name="qs_expand_indicator_title">Hide expand indicator</string>
+    <string name="qs_expand_indicator_summary">Remove the expand indicator in the header</string>
 
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
@@ -387,4 +398,5 @@
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+
 </resources>
