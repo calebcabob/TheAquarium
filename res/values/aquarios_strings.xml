@@ -309,6 +309,15 @@
     <string name="custom_header_provider_title">Header provider</string>
     <string name="custom_header_browse_title">Browse installed headers</string>
     <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+    <!-- QS Header Icons -->
+    <string name="qs_settings_icon_title">Hide settings shortcut</string>
+    <string name="qs_settings_icon_summary">Remove the settings shortcut in the header</string>
+    <string name="qs_edit_title">Hide edit icon</string>
+    <string name="qs_edit_summary">Remove the tile edit icon in the header</string>
+    <string name="qs_multiuser_switch_title">Hide multi-user switch</string>
+    <string name="qs_multiuser_switch_summary">Remove the multi-user switch in the header</string>
+    <string name="qs_expand_indicator_title">Hide expand indicator</string>
+    <string name="qs_expand_indicator_summary">Remove the expand indicator in the header</string>
     <!-- QS easy toggles -->
     <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
     <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable mobile data, Wi-Fi, location, and Bluetooth</string>
