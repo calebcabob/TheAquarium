@@ -72,6 +72,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
     private PreferenceCategory mWeatherCategory;
     private PreferenceScreen mHeaderBrowse;
     private String mDaylightHeaderProvider;
+    private String mWeatherIconPackNote;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -79,6 +80,8 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
         addPreferencesFromResource(R.xml.notification_drawer_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+        
+        mWeatherIconPackNote = getResources().getString(R.string.weather_icon_pack_note);
 
         mQuickPulldown = (ListPreference) findPreference(QUICK_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
@@ -184,7 +187,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
                 jawsvalueIndex = mWeatherIconPack.findIndexOfValue(settingJawsPackage);
             }
             mWeatherIconPack.setValueIndex(jawsvalueIndex >= 0 ? jawsvalueIndex : 0);
-            mWeatherIconPack.setSummary(mWeatherIconPack.getEntry());
+            mWeatherIconPack.setSummary(mWeatherIconPackNote + "\n\n" + mWeatherIconPack.getEntry());
             mWeatherIconPack.setOnPreferenceChangeListener(this);
         }
     }
@@ -245,7 +248,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
             Settings.System.putString(getContentResolver(),
                     Settings.System.OMNIJAWS_WEATHER_ICON_PACK, value);
             int valueIndex = mWeatherIconPack.findIndexOfValue(value);
-            mWeatherIconPack.setSummary(mWeatherIconPack.getEntries()[valueIndex]);
+            mWeatherIconPack.setSummary(mWeatherIconPackNote + " \n\n" + mWeatherIconPack.getEntries()[valueIndex]);
             return true;
         }
         return false;
