@@ -28,6 +28,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
 
+    <PreferenceScreen
+        android:key="status_bar_weather"
+        android:title="@string/status_bar_weather_title"
+        android:summary="@string/status_bar_weather_summary"
+        android:fragment="com.aquarios.settings.fragments.StatusBarWeather" />
+
     </PreferenceScreen>
 <!-- WE DON'T NEED THIS SHIT
     <com.aquarios.settings.preferences.SystemSettingSwitchPreference
