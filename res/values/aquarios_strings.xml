@@ -323,19 +323,6 @@
     <!-- QS easy toggles -->
     <string name="qs_easy_toggle_title">Advanced Quick Setting easy toggle</string>
     <string name="qs_easy_toggle_summary">Enable one tap action to enable/disable mobile data, Wi-Fi, location, and Bluetooth</string>
-    <!-- Status bar temperature -->
-    <string name="statusbar_weather_settings_summary">Show temperature of current weather in status bar</string>
-    <string name="weather_category">Weather</string>
-    <string name="status_bar_temperature_title">Statusbar weather temperature</string>
-    <string name="status_bar_temperature_hidden">Hidden</string>
-    <string name="status_bar_temperature_show_scale">Shown with scale</string>
-    <string name="status_bar_temperature_hide_scale">Shown without scale</string>
-    <string name="status_bar_temperature_location_title">Placement</string>
-    <string name="status_bar_temperature_location_summary">Select where the weather temperature is shown on the statusbar</string>
-    <string name="status_bar_temperature_location_right">Show on right</string>
-    <string name="status_bar_temperature_location_left">Show on left</string>
-    <string name="status_bar_weather_color_title">Temperature color</string>
-    <string name="status_bar_weather_size_title">Font size</string>
     <!-- OmniJaws -->
     <string name="qs_omnijaws_category">Weather QS tile</string>
     <string name="weather_config_title">Weather settings</string>

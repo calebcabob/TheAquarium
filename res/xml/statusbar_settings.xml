@@ -20,13 +20,7 @@
         android:key="pure_clock_settings"
         android:title="@string/clock_settings_title"
         android:summary="@string/clock_settings_summary" />
-        
-    <PreferenceScreen
-        android:key="status_bar_temperature"
-        android:title="@string/status_bar_temperature_title"
-        android:fragment="com.aquarios.settings.fragments.StatusBarWeather"
-        android:summary="@string/statusbar_weather_settings_summary" />
-        
+
     <PreferenceScreen
             android:title="@string/status_bar_icon_blacklist_title"
             android:summary="@string/status_bar_icon_blacklist_summary" >
